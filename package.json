@@ -1,0 +1,25 @@
+{
+  "name": "coruserahcj.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/Alex-Beep-Cao/coruserahcj.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Beep-Cao/coruserahcj.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Beep-Cao/coruserahcj.github.io/issues"
+  },
+  "homepage": "https://github.com/Alex-Beep-Cao/coruserahcj.github.io#readme"
+}
