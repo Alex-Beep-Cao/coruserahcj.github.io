@@ -6,6 +6,9 @@ body {
 }
 
 /** HEADER **/
+/* header {
+  margin-bottom: 215px;
+} */
 #header-nav {
   background-color: #f6b319;
 }
@@ -138,9 +141,89 @@ body {
 }
 /* END HOME PAGE */
 
+/* CATEGORY PAGE  */
+.category-tile {
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000;
+  opacity: 0.8;
+  color: #fff;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/* target id menu-category-title  下一个同级的element div  */
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END CATEGORY PAGE  */
+/* SINGLE CATEGORY PAGE  */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: 0.6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  /* because in hmtl file the image is in class img-response, and the img width is 250px so we made max-width 250 px  */
+  max-width: 250px;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+
+.menu-item-description {
+  padding-right: 28px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: 0.9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE  */
+
 /* FOOTER */
 .panel-footer {
-  margin-top: 30px;
+  margin-top: 50px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -174,6 +257,7 @@ body {
   margin-top: 25px;
 }
 /* END FOOTER */
+
 /* for larger device */
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -305,6 +389,18 @@ body {
     margin: 0 auto 15px;
   }
   /*End Home Page */
+  /* SINGLE category page  */
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  h3.menu-item-title {
+    text-align: center;
+  }
+
+  /* End SINGLE category page  */
 }
 
 @media (max-width: 497px) {
@@ -323,4 +419,16 @@ body {
     margin: 0 auto 15px;
   }
   /* End Home Page  */
+
+  /* category page  */
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 100%;
+  }
+  /* End category page  */
 }
