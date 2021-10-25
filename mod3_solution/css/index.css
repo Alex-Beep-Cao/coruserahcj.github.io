@@ -1,0 +1,47 @@
+/* Since we are using Bootstrap for this assignment, instead of specifying pixel ranges, I will define our desktop, tablet, and mobile views in terms of Bootstrap CSS class prefixes, i.e., md, sm, and xs.
+
+Desktop mockup illustration should correspond to Bootstrap md-based classes
+Tablet mockup illustration should correspond to Bootstrap sm-based classes
+Mobile mockup illustration should correspond to Bootstrap xs-based classes */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.row {
+  margin-top: 20px;
+}
+#chicken,
+#sushi,
+#beef,
+#noodle {
+  background-color: grey;
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+}
+
+#nav-list {
+  text-align: center;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin-top: 0;
+}
+#nav-list li {
+  border-bottom: 2px solid black;
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
