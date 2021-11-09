@@ -13,7 +13,7 @@ body {
   background-color: #f6b319;
 }
 #logo-img {
-  background: url("../module3/image/restaurant-logo_large.png") no-repeat;
+  background: url("../module3/images/restaurant-logo_large.png") no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -131,12 +131,12 @@ body {
   right: 0;
 }
 #menu-tile {
-  background: url(../module3//images/menu-tile.jpg) no-repeat;
+  background: url(images/menu-tile.jpg) no-repeat;
   background-position: center;
 }
 
 #specials-tile {
-  background: url(../module3//images/specials-tile.jpg) no-repeat;
+  background: url(images/specials-tile.jpg) no-repeat;
   background-position: center;
 }
 /* END HOME PAGE */
@@ -275,7 +275,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url("../module3/image/restaurant-logo_medium.png") no-repeat;
+    background: url("images/restaurant-logo_medium.png") no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
